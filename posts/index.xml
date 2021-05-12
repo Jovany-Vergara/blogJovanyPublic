@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jovany Vergara</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Jovany Vergara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 May 2021 14:22:24 -0500</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creación de un Blog Web</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Mon, 10 May 2021 14:22:24 -0500</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>Nota para usuarios que no son de git:  Si no tiene git instalado, puede descargar el archivo de la última versión de este tema desde: https://github.com/theNewDynamic/gohugo-theme-ananke/archive/master.zip Extraiga ese archivo .zip para obtener un directorio &amp;ldquo;gohugo-theme-ananke-master&amp;rdquo;. Cambie el nombre de ese directorio a &amp;ldquo;ananke&amp;rdquo; y muévalo al directorio &amp;ldquo;themes /&amp;rdquo;.  ▶ cd quickstart ~/quickstart ▶ git init Initialized empty Git repository in /Users/bep/quickstart/.git/. Instalación de hugo.io Para poder crear tu sitio web o en este caso un blog te recomiendo usar hugo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
