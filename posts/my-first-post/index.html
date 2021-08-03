@@ -4,11 +4,11 @@
     <title>Creación de un Blog Web // Jovany Vergara</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.86.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Jovany Vergara" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+    <link rel="stylesheet" href="/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
 
     
     <meta name="twitter:card" content="summary"/>
@@ -77,7 +77,7 @@
 <li>Extraiga ese archivo .zip para obtener un directorio <strong>&ldquo;gohugo-theme-ananke-master&rdquo;.</strong></li>
 <li>Cambie el nombre de ese directorio a &ldquo;ananke&rdquo; y muévalo al directorio <strong>&ldquo;themes /&rdquo;.</strong></li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">▶ cd quickstart
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">▶ cd quickstart
 ~/quickstart
 ▶ git init
 Initialized empty Git repository in /Users/bep/quickstart/.git/.
@@ -103,7 +103,7 @@ Initialized empty Git repository in /Users/bep/quickstart/.git/.
 <p>nos tendría que salir esto para saber que si se creo</p>
 <p><img src="/img1.jfif" alt=""></p>
 <h3 id="3-agregar-un-tema">3. Agregar un tema</h3>
-<p>Para elegir un tema a nuestro gusto podríamos buscar en <a href=""><strong>themes.gohugo.io</strong></a> (para obtener una lista de temas a considerar. Esta guía de inicio rápido utiliza el hermoso <a href="">tema de Ananke</a>)
+<p>Para elegir un tema a nuestro gusto podríamos buscar en <a href="https://themes.gohugo.io/"><strong>themes.gohugo.io</strong></a> (para obtener una lista de temas a considerar. Esta guía de inicio rápido utiliza el hermoso <a href="">tema de Ananke</a>)
 antes de agregar el tema nos vamos a nuestro cmd o powershell y tenemos que estar cd de donde esta nuestra pagina que se creo para poder poner el tema por ejemplo yo utilice lo siguiente:</p>
 <p><img src="/ima2.png" alt=""></p>
 <p>Aquí yo me estoy colocando donde tengo o mas bien donde cree mi <a href="">quickstart</a>
@@ -112,7 +112,7 @@ ya que eligimos nuestro tema le damos click y nos saldrá esto.</p>
 <p>Le damos en descargar y nos va a mandar a Git Hub, ya solo le damos en code  en mi caso soy Windows y elijo HTTPS y copiamos la URL</p>
 <p><img src="/ima4.png" alt=""></p>
 <h3 id="ponemos-los-siguientes-comandos">Ponemos los siguientes comandos:</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cd quickstart (si no estas en tu ruta ).
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cd quickstart (si no estas en tu ruta ).
 git init (se encarga de iniciar un repositorio).
 git submodule addgit submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke 
 (aquí agregamos nuestra ruta copiada en mi caso use la que esta ahí).
@@ -134,7 +134,7 @@ y adrarle enter nos empezara a crear todo y a insertar nuestro tema en nuestro q
 <p>Ponemos el siguiente código:
 <a href="">hugo new posts/my-first-post.md</a></p>
 <p>Si queremos editar el archivo recién creado (si lo desea), comenzara con algo así:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">title: &#34;My First Post&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">title: &#34;My First Post&#34;
 date: 2019-03-26T08:47:11+01:00
 draft: true
 </code></pre></div><p><strong>(En otro caso para hacer mas fácil la edición podemos abrir nuestro directorio con visual code (que es el que yo uso) ya solo seria buscar nuestro new-first-post (En mi caso lo encontré en content))</strong></p>
@@ -157,7 +157,7 @@ primero te vas cmd o al PowerShell, y te vas a tu directorio donde tengas tu pag
 <p>Ahora si vamos a configurar el sitio</p>
 <h3 id="configuración-del-sitio">Configuración del sitio</h3>
 <p>Abre <a href="">config.tomlen</a> (puedes abrirlo con visual) un editor de texto y ponemos lo siguiente:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">baseURL = &#34;https://example.org/&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">baseURL = &#34;https://example.org/&#34;
 languageCode = &#34;en-us&#34;
 title = &#34;My New Hugo Site&#34;(aqui pueden cambiar el tittulo a su gusto)
 theme = &#34;ananke&#34; (aqui es donde les digo que si quieren un tema personalizado cambiarle ananke por el que les de el tema que quieren)
